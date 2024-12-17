@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ファンタジーワールド</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/loading.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loading-icon"></div>
+    <div class="loading-text">ゲームデータを読み込んでいます...</div>
+    <div class="loading-progress">
+      <div class="loading-progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-content">
+      <span class="nav-title">ファンタジーワールド</span>
+      <button class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-menu">
+      <a href="#home" class="nav-link">ホーム</a>
+      <a href="#about" class="nav-link">ゲーム紹介</a>
+      <a href="#characters" class="nav-link">キャラクター</a>
+      <a href="#gallery" class="nav-link">ゲームシリーズ</a>
+      <a href="#download" class="nav-link">ダウンロード</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>ファンタジーワールド</h1>
+      <p>新しい冒険の世界へようこそ</p>
+      <a href="#download" class="button">今すぐプレイ</a>
+    </div>
+  </section>
+
+  <!-- Content Sections -->
+  <div class="content-wrapper">
+    <!-- Game Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-content">
+          <h2>ゲームの世界</h2>
+          <p>広大なオープンワールドで、自分だけの冒険を見つけましょう。魔法や剣術を駆使して、強大な敵に立ち向かい、仲間たちと共に世界を救う壮大な物語が始まります。</p>
+        </div>
+        <div class="section-image">
+          <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80" alt="ゲームの世界">
+        </div>
+      </div>
+    </section>
+
+    <!-- Characters Section -->
+    <section id="characters" class="section">
+      <div class="container">
+        <div class="section-content">
+          <h2>個性豊かなキャラクター</h2>
+          <p>様々な特徴を持つキャラクターたちがあなたの冒険をサポート。それぞれのキャラクターが持つ独自のストーリーと能力で、プレイヤーの選択肢が広がります。</p>
+        </div>
+        <div class="section-image">
+          <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80" alt="キャラクター">
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>ゲームシリーズ</h2>
+        <div class="gallery-grid">
+          <!-- Gallery items will be added dynamically via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="section">
+      <div class="container">
+        <h2>ダウンロード</h2>
+        <p>無料でプレイを開始しよう</p>
+        <div class="download-buttons">
+          <a href="#" class="button">PC版をダウンロード</a>
+          <a href="#" class="button">モバイル版をダウンロード</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="js/loading.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
